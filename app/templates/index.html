@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form method="post">
+      <input type="text" name="text">
+      <button type="submit">送信</button>
+    </form>
+
+    {% if result %}
+      <p>入力された文章：{{ result }}</p>
+    {% endif %}
+  </body>
+</html>
