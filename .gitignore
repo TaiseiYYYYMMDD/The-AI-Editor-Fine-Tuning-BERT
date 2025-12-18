@@ -1,0 +1,4 @@
+# model outputs
+model_build/
+*.safetensors
+*.bin
