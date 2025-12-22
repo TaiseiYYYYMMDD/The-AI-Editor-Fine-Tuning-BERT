@@ -4,7 +4,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_NAME = "ai_editor_model_official_9"  # ← ここ1行だけ変える
+MODEL_NAME = "ai_Final"  # ← ここ1行だけ変える
 MODEL_DIR = (BASE_DIR / f"../model_build/{MODEL_NAME}").resolve()
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR)
